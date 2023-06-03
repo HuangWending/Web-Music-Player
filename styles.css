@@ -1,0 +1,13 @@
+#player {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#lyrics {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lyric-line {
+    font-size: 18px;
+}
