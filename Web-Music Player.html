@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>音乐播放器</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="player">
+        <audio id="audio" controls></audio>
+        <br>
+        <input type="file" id="musicFile" accept=".mp3">
+        <button onclick="playMusic()">播放</button>
+        <button onclick="pauseMusic()">暂停</button>
+        <button onclick="stopMusic()">停止</button>
+        <br>
+        <input type="file" id="lyricsFile" accept=".txt">
+        <button onclick="loadLyrics()">加载歌词</button>
+    </div>
+    <div id="lyrics"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
